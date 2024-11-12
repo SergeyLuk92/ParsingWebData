@@ -9,7 +9,6 @@ time_start = time.time()
 url = 'https://www.bazarok.ua/ru/'
 num_pages = 5
 
-
 async def process_request(request: httpx.Request):
     print(f'Отправил запрос {request.method} на хост {request.url}')
 
