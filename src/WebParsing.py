@@ -61,3 +61,9 @@ with open('outputdatacollection.csv', 'w', encoding='utf-8', newline='') as csvf
         writer.writerow([key, value])
 time_finish: float = time.time() - time_start
 print(time_finish)
+
+
+
+
+
+
