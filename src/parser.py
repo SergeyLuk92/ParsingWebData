@@ -3,7 +3,7 @@ import httpx
 from typing import List
 from bs4 import BeautifulSoup
 
-our_list:  List = []
+our_list: List = []
 new_dict: dict[str, str] = {}
 
 
