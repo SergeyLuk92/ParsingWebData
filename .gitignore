@@ -2,3 +2,4 @@
 .venv/
 .idea/
 test_module.py
+__pycache__/

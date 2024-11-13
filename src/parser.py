@@ -32,7 +32,7 @@ def parse_data(cards: List):
 def save_csv():
     for data in our_list:
         new_dict.update(data)
-    with open('outputdatacollection.csv', 'w', encoding='utf-8', newline='') as csvfile:
+    with open('output_data_collection.csv', 'w', encoding='utf-8', newline='') as csvfile:
         writer: csv.writer = csv.writer(csvfile)
         for key, value in new_dict.items():
             writer.writerow([key, value])
