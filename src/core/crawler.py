@@ -2,7 +2,7 @@ import asyncio
 import httpx
 import time
 
-from src.parser import process_response, save_csv
+from src.core.parser import process_response, save_csv
 from typing import List
 
 time_start: float = time.time()
