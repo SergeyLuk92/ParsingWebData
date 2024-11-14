@@ -6,5 +6,5 @@ class Settings(BaseSettings):
     secret_key: str
     debug: bool = False
     class Config:
-        env_file = "..env"
+        env_file = ".env"
 settings = Settings()
