@@ -5,4 +5,3 @@ test_module.py
 __pycache__/
 .env
 poetry.lock
-pyproject.toml

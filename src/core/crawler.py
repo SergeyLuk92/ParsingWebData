@@ -6,12 +6,13 @@ from loguru import logger
 from httpx import Response, AsyncClient, Request
 
 from src.core.parser import WebSiteParser
+from config import settings
 
 
 class WebSiteCrawler:
     def __init__(self):
-        self.url: str = 'https://www.bazarok.ua/ru/'
-        self.num_pages: int = 5
+        self.url: str = settings.domain_url
+        self.num_pages: int = settings.num_pages
         self.parser = WebSiteParser()
 
     async def process_request(self, request: Request) -> None:
