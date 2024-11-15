@@ -6,7 +6,7 @@ from loguru import logger
 from httpx import Response, AsyncClient, Request
 
 from src.core.parser import WebSiteParser
-from config import settings
+from src.config import settings
 
 
 class WebSiteCrawler:

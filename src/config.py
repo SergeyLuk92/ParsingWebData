@@ -8,6 +8,6 @@ class Settings(BaseSettings):
     csv_file_name: str
 
     class Config:
-        env_file = ".env"
+        env_file = "../.env"
 
 settings = Settings()
